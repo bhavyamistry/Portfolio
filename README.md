@@ -24,7 +24,7 @@
 <p align="center">If you want to discuss about something, you can ask on my <a href="https://discord.com/invite/GkcbM5bwZr">Discord Server</a>.</p>
 
 <p align="center"> 
-    <a href="https://ashutosh1919.github.io" target="_blank">
+    <a href="https://bhavyamistry.github.io" target="_blank">
     <img src="images/masterPortfolioThemes.png"></img>
   </a>
 </p>
@@ -35,14 +35,11 @@
 
 ✔️ Summary and About me\
 ✔️ Skills \
-✔️ Open Source Projects Connected with Github\
 ✔️ Experience\
 ✔️ Certifications 🏆\
-✔️ Blogs\
 ✔️ Education\
-✔️ Contact me
 
-To view a live example, **[click here](https://ashutosh1919.github.io/)**
+To view a live example, **[click here](https://bhavyamistry.github.io/)**
 
 # Clone and Use 📋
 
@@ -128,31 +125,6 @@ node git_data_fetcher.mjs
 This will fetch all the data from your github and it will automatically replace my data with yours.
 Whenever you want to update the github related information on the website you need to run this command.
 
-### Splash Logo
-
-Note here that if you click [my portfolio](https://ashutosh1919.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
-Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
-
-- If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo
-- If you don't want Splash screen or you don't know how to design logo, then this option is for you
-
-  - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
-    ```javascript
-    // Website related settings
-    const settings = {
-      isSplash: true,
-    };
-    ```
-  - Change `isSplash` from `true` to `false`
-  - Now, if you see your website using `npm start`, it will directly open `home` rather than animating logo `splash` screen
-  - If you design your logo in future, then edit the files in `./src/components/Loader` and then revert `isSplash` to `true` in `src/portfolio.js`.
-
-## Other
-
-- You need to change the website title and other descriptions in `public/index.html`
-- You can define your own favicon in `public/icons` directory. If you don't have a favicon, you can generate favicons from [Favicon Generator](https://www.favicon-generator.org/) and [Favicon IO](https://favicon.io/)
-- You can also edit your website preview (known as description image). Run your site locally, take a screenshot and replace with `public/icons/desc.png`. Note that your screenshot should be 1280x640 for better preview.
-
 # Choose Theme 🌈
 
 - You can take a look at `src/theme.js` file where all available themes are mentioned with their respective color codes
@@ -184,11 +156,6 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
 
-<p align="center"> 
-    <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
-    <img src="http://img.youtube.com/vi/IwBS39TOmpA/0.jpg"></img>
-  </a>
-</p>
 
 # Technologies used 🛠️
 
@@ -215,7 +182,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4?s=100" width="100px;" alt="Ashutosh Hathidara"/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Documentation">📖</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://bhavyamistry.github.io"><img src="https://github.com/bhavyamistry/Portfolio/assets/58860047/4d768d7a-ee9e-4ae8-8eb3-25bbe1bb0225" width="100px;" alt="Bhavya Mistry"/><br /><sub><b>Bhavya Mistry</b></sub></a><br /><a href="https://github.com/bhavyamistry/Portfolio/commits?author=bhavyamistry" title="Code">💻</a> <a href="https://github.com/bhavyamistry/Portfolio/commits?author=bhavyamistry" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://danielmarostica.github.io/"><img src="https://avatars3.githubusercontent.com/u/3595998?v=4?s=100" width="100px;" alt="Daniel Marostica"/><br /><sub><b>Daniel Marostica</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=danielmarostica" title="Documentation">📖</a> <a href="#design-danielmarostica" title="Design">🎨</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://dineshnadimpalli.com"><img src="https://avatars2.githubusercontent.com/u/13104926?v=4?s=100" width="100px;" alt="Dinesh Nadimpalli"/><br /><sub><b>Dinesh Nadimpalli</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=dineshnadimpalli" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://jivthesh.github.io"><img src="https://avatars3.githubusercontent.com/u/20579980?v=4?s=100" width="100px;" alt="Jivthesh M R"/><br /><sub><b>Jivthesh M R</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=jivthesh" title="Documentation">📖</a></td>
