@@ -1,18 +1,10 @@
-.footer {
-    font-family: 'var(--primaryFont)', sans-serif;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-text {
+  text-align: center;
+  /* color: #868e96; */
+  font-weight: bold;
+  font-family: "Google Sans Regular";
 }
 
-.footer p {
-    font-weight: 500;
-    font-family: var(--primaryFont);
-    font-size: 18px;
-}
-
-.footer p span {
-    font-size: 24px;
+.footer-div {
+  margin-top: 2rem;
 }
