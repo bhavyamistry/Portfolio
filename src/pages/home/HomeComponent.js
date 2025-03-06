@@ -18,11 +18,11 @@ class Home extends Component {
         <Header theme={this.props.theme} />
         <Greeting theme={this.props.theme} />
         <Skills theme={this.props.theme} />
+        <ExperienceTimeline theme={this.props.theme} />
         <Educations theme={this.props.theme} />
         {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
           ) : null}
-        <ExperienceTimeline theme={this.props.theme} />
         {projects.projects.length > 0 ? (
             <Project_card theme={this.props.theme} />
           ) : null}

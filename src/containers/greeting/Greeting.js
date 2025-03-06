@@ -54,8 +54,7 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.greeting, fontSize: '2rem', marginTop: '50px', textAlign:'center'}}
               >
-                Problem Solver, tech-Agnostic, quick learner, adaptable, and a dedicated team player. Skilled professional with diverse experience working in the USA and India, a patent Holder, AWS Certified, seeking Full-Time opportunities starting from June 2024.
-
+                Keen Software Engineer with expertise in full product lifecycles, transforming business requirements into scalable applications through clean design and agile methodologies. AWS Certified professional actively seeking new and exciting opportunities to contribute technical expertise to innovative challenges.
               </p>
               <center><SocialMedia theme={theme} /></center>
               <div className="button-row">

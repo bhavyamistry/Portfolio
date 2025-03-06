@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Bhavya Mistry Portfolio",
     type: "website",
-    url: "http://BhavyaMistry.com/",
+    url: "https://bhavyamistry.github.io/",
   },
 };
 
@@ -25,8 +25,8 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/Bhavya1919/masterPortfolio",
+    "https://drive.google.com/file/d/1y3H82N9un60BeqSco_qFQxcAfddNlyki/view?usp=sharing",
+  portfolio_repository: "https://github.com/bhavyamistry/Portfolio",
   githubProfile: "https://github.com/bhavyamistry",
 };
 
@@ -670,39 +670,50 @@ const experience = {
 const experience2 = [
   {
     id: 1,
-    title: "Graduate Research Assistant",
-    company: "Kelley School Of Business",
-    location: "Bloomington, IN, USA",
-    website_link: "https://kelley.iu.edu/index.html",
+    title: "Software Engineer",
+    company: "PhoenixEV.AI",
+    location: "Anaheim, California, USA",
+    website_link: "https://phoenixev.ai/",
     description:
-      "Applied problem-solving skills to engineer a database solution for the Finance Department, conducting extensive research for scrapping Millions of records from the U.S. Federal Server. Implemented innovative parallel processing techniques on a university supercomputer, increasing PDF download speed to 15/min. Leveraged Python for efficient analysis and seamlessly integrated findings with OneDrive using Graph REST-API.",
-    date: "August 2023 - present",
+      "Engineered enterprise diagnostic software that implemented critical system improvements and resolved maintenance issues, reducing production incidents by 95%. Designed scalable data logging solutions that successfully processed over 100K daily vehicle health metrics with 99.9% uptime. Created real-time analytics dashboards enabling instant visualization of vehicle diagnostics and performance metrics. Implemented an AI-powered assistant that reduced troubleshooting time by 35% by automating technical solution retrieval.",
+    date: "September 2024 - Present",
     icon: "work",
   },
   {
     id: 2,
-    title: "Software Engineering Intern",
-    company: "Tech For Good Inc.",
-    location: "Boston, MA, USA",
-    website_link: "https://www.techforgoodinc.org/",
+    title: "Software Engineering Fellow",
+    company: "Kelley School Of Business",
+    location: "Bloomington, Indiana, USA",
+    website_link: "https://kelley.iu.edu/index.html",
     description:
-      "Collaboratively built open-source Job Applicant Management for Employer. Led code review sessions, debugging efforts, and team-building activities. Implemented an in-house E-signature solution, reducing processing time by 60% for 50 nonprofits. Innovated NLP and Regex-based resume parser, fostering efficient candidate evaluation and eliminating ATS costs.",
-    date: "May 2023 - August 2023",
+      "Designed and implemented a comprehensive financial database by extracting 8.5 million records from U.S. Federal sources. Developed distributed system architecture with parallel processing capabilities that reduced data processing time by 70%. Created high-accuracy data extraction pipelines achieving 95% accuracy. Collaborated with Finance Department to establish ETL workflows with security protocols that delivered actionable financial insights for business decision-making.",
+    date: "August 2023 - August 2024",
     icon: "work",
   },
   {
     id: 3,
-    title: "Freelance Full Stack Developer",
-    company: "Mevada Engineering Works Pvt Ltd.",
-    location: "Mumbai, MH, India",
-    website_link: "https://saturnvalves.com",
+    title: "Software Engineering Intern",
+    company: "Tech For Good Inc.",
+    location: "Boston, Massachusetts, USA",
+    website_link: "https://www.techforgoodinc.org/",
     description:
-      "Developed an end-to-end supply chain software. Facilitated client communication and stakeholder engagement, integrating CRM solutions to manage 100+ clients. Ensured client satisfaction through weekly sprint meetings, while designing visually appealing front-end and reliable APIs.",
-    date: "March 2021 - April 2022",
+      "Collaborated with backend team to develop an in-house Applicant Tracking System that eliminated $25K in licensing costs. Participated in thorough code reviews and strategic brainstorming sessions alongside Senior Engineers and Application Architects to ensure solution quality and alignment with business needs.",
+    date: "May 2023 - August 2023",
     icon: "work",
   },
   {
     id: 4,
+    title: "Full Stack Developer",
+    company: "Mevada Engineering Works Pvt Ltd.",
+    location: "Mumbai, India",
+    website_link: "https://saturnvalves.com",
+    description:
+      "Designed and implemented a comprehensive supply chain system handling inventory management, logistics, and order processing for 100+ clients. Established automated deployment pipelines that reduced delivery time by 50%. Streamlined development processes through Agile methodologies, collaborating with stakeholders to gather requirements and iterate solutions, resulting in 40% shorter development cycles.",
+    date: "May 2020 - May 2022",
+    icon: "work",
+  },
+  {
+    id: 5,
     title: "Freelance Web Developer",
     company: "Programmatix Institute",
     location: "Mumbai, MH, India",
@@ -713,7 +724,7 @@ const experience2 = [
     icon: "work",
   },
   {
-    id: 5,
+    id: 6,
     title: "Junior Developer Intern",
     company: "Mark Web Solutions",
     location: "Mumbai, MH, India",
